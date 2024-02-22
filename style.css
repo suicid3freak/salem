@@ -1,3 +1,30 @@
 body {
   font-family: "Kanit", sans-serif;
+  color: #ff9dba;
+  font-size: 12px;
+}
+
+.wrapper {
+  border: 2px solid;
+  padding: 5px;
+   display: flex;
+  justify-content: space-between;
+}
+
+h1::first-line {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 12px;
+}
+
+section {
+  flex: 1;
+  text-align: right;
+}
+
+article {
+  flex: 1;
+  text-align: left;
 }
